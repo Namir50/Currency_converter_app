@@ -7,6 +7,8 @@ window.geometry("500x360")
 def clicked():
     am1 = int(e1.get())
     cur1 = e2.get()
+    cur2 = e3.get()
+    l5 = tk.Label(window,font = "Times 17 bold").place(x = 120, y = 260)
 t1 = tk.Label(window,text = "Currency Converter", font = "Times 20 bold").place(x = 120, y = 30)
 t2 = tk.Label(window, text = "Enter amount: ",font = "Times 10 bold").place(x = 50,y=80)
 e1 = tk.Entry(window).place(x = 175, y = 80)
